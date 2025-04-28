@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.css-sqyaui{
+  position: unset !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.rs-input-group {
+  border: '1px solid rgba(0, 0, 0, 0.23)';
+}
+.rs-input-group-lg.rs-input-group > .rs-input {
+  height: 50px;
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-picker-large {
+  padding: 16px 13px 16px !important;
+}
+
+
+.css-17ayq2m-MuiGrid-root {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap; /* Ensure content wraps properly */
+  flex-direction: row;
+  width: 100% !important; /* Full width without causing overflow */
+  margin: 0 auto; /* Center the content */
+  padding: 20px 2rem; /* Use responsive padding */
+  overflow-x: hidden; /* Prevent unwanted horizontal scroll */
+}
+
+
+/* Container styling */
+.ant-picker {
+  border: 1px solid #ccc !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ant-picker-input > input {
+  font-size: 14px !important;
+  color: #7d7d7d !important;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+/* Remove default Ant Design border */
+.ant-picker-focused {
+  border-color: #ccc !important;
+  box-shadow: none !important;
+}
+
+/* Add custom separator */
+.ant-picker-separator {
+  color: transparent !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-picker-separator::before {
+  content: "";
+  width: 1px;
+  height: 24px;
+  background-color: #e0e0e0;
+  display: block;
+}
+
+/* Hover and focus effects */
+.ant-picker:hover {
+  border-color: #d9d9d9 !important;
+}
+
+.ant-picker-input {
+  padding: 10px !important;
+}
+
+/* Calendar cells styling */
+.ant-picker-cell-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-range-end .ant-picker-cell-inner {
+  background-color: #007bff !important; /* Highlight selected dates */
+  color: #ffffff !important;
+  border-radius: 50% !important;
+}
+
+/* Hide the calendar icon */
+.ant-picker-suffix {
+  display: none !important;
+}
+
+
+
+.slick-list {
+  margin-left: 10px; /* Counter the padding for proper alignment */
+}
+
+/* .ant-picker-header-super-prev-btn, 
+.ant-picker-header-super-next-btn {
+  display: none;
+} */
+
+
+.ant-picker-header-super-next-btn {
+  display: none !important;
+}
+
+.ant-picker-header-super-prev-btn {
+  display: none !important; 
+}
